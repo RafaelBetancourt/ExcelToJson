@@ -63,7 +63,6 @@ function App() {
 
   return (
     <div className="container">
-
       {/* upload file section */}
       <div className='form'>
         <form className='form-group' autoComplete="off"
@@ -78,10 +77,8 @@ function App() {
             style={{ marginTop: 5 + 'px' }}>Mostrar</button>
         </form>
       </div>
-
       <br></br>
       <hr></hr>
-
       {/* view file section */}
       <h5>Archivo cargado</h5>
       <div className='viewer'>
@@ -107,7 +104,6 @@ function App() {
           </div>
         )}
       </div>
-
     </div>
   );
 }
